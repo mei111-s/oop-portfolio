@@ -2,12 +2,13 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Home, BookOpen, Mail } from "lucide-react"
+import { Home, BookOpen, Mail, GraduationCap } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const apps = [
   { href: "/", label: "Home", icon: Home },
   { href: "/midterm", label: "Midterm", icon: BookOpen },
+  { href: "/final",    label: "Final",   icon: GraduationCap },
   { href: "/contact", label: "Contact", icon: Mail },
 ]
 
